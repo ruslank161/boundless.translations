@@ -1,0 +1,20 @@
+{
+  "name": "boundless.translations",
+  "version": "1.0.0",
+  "description": "Fan translations for Boundless",
+  "homepage": "https://github.com/DamTerrion/boundless.translations",
+  "bugs": "https://github.com/DamTerrion/boundless.translations/issues",
+  "license": "CC-BY-4.0",
+  "repository": "DamTerrion/boundless.translations",
+  "files": [
+    "*.md",
+    "translations/*.json"
+  ],
+  "scripts": {
+    "test": "./scripts/validate.js",
+    "validate": "./scripts/validate.js"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  }
+}
